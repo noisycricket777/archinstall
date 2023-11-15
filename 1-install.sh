@@ -58,7 +58,7 @@ mount /dev/$sdb3 /mnt/vm
 # ------------------------------------------------------
 # Install base packages
 # ------------------------------------------------------
-pacstrap -K /mnt base base-devel git linux linux-firmware vim openssh reflector rsync amd-ucode
+pacstrap -K /mnt base base-devel git linux linux-firmware vim openssh reflector rsync intel-ucode
 
 # ------------------------------------------------------
 # Generate fstab
