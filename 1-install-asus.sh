@@ -18,9 +18,9 @@ echo ""
 # Enter partition names
 # ------------------------------------------------------
 lsblk
-read -p "Enter the name of the EFI partition (eg. sda1): " sdb1
-read -p "Enter the name of the ROOT partition (eg. sda2): " sdb2
-read -p "Enter the name of the VM partition (keep it empty if not required): " sdb3
+read -p "Enter the name of the EFI partition (eg. sda1): " $nvme0n1p1
+read -p "Enter the name of the ROOT partition (eg. sda2): " $nvme0n1p2
+read -p "Enter the name of the VM partition (keep it empty if not required): " $nvme0n1p3
 
 # ------------------------------------------------------
 # Sync time
